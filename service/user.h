@@ -67,6 +67,7 @@ public:
     void browse_add();
 
     void setShoppingCartSaveFileType(const std::string &file_type_);
+    std::string getShoppingCartSaveFileType() const
     std::string basket_to_string();
     int getShoppingCartSum() const;
     std::string printableShoppingCart() const;

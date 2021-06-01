@@ -139,6 +139,12 @@ void UserMode::setShoppingCartSaveFileType(const std::string &file_type_) {
     this->file_type = file_type_;
 }
 
+
+std::string UserMode::getShoppingCartSaveFileType() const {
+    return this->file_type;
+}
+
+
 int UserMode::getShoppingCartSum() const{
     /// Method 1
 //    int totalShoppingCartSum = 0;

@@ -589,7 +589,7 @@ void GUI::userBrowseButtonHandler() {
 void GUI::quitBrowsingButtonHandler() {
     this->userBrowseButton->show();
     this->userShowButton->show();
-    this->userOpenButton->show();
+    if (this->userMode.getShoppingCartSaveFileType() != "none") this->userOpenButton->show();
     this->userBackButton->show();
     this->userExitButton->show();
     this->quitBrowsingButton->hide();
