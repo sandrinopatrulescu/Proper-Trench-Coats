@@ -6,7 +6,7 @@
 #include <cstring>
 #include "test_validators.h"
 #include "../domain/trench_coat.h"
-#include "../validators/trench_coat validator.h"
+#include "../validators/trench_coat_validator.h"
 #include "../exceptions/trench_coat_exceptions.h"
 
 void TestValidators::test_trench_coat_validator() {

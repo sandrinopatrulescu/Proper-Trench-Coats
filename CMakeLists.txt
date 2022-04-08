@@ -51,8 +51,8 @@ add_executable(a89_915_Patrulescu_Sandrino
         tests/test_validators.h
         ui/menu_ui.cpp
         ui/menu_ui.h
-        "validators/trench_coat validator.cpp"
-        "validators/trench_coat validator.h"
+        validators/trench_coat_validator.cpp
+        validators/trench_coat_validator.h
         main.cpp ui/gui.cpp ui/gui.h)
 
 file(COPY data/repoData.txt
